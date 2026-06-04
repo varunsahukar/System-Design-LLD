@@ -177,3 +177,14 @@ Status convention used across all tables:
 | [ ]    | Not started |
 | [~]    | In progress |
 | [x]    | Completed   |
+
+---
+
+## Tech Stack
+
+| Category         | Tools                           |
+| ---------------- | ------------------------------- |
+| Primary Language | Java / Python / C++             |
+| Diagram Tooling  | draw.io, PlantUML, Excalidraw   |
+| Testing          | JUnit 5 (Java), pytest (Python) |
+| Documentation    | Markdown                        |
