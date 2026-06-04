@@ -188,3 +188,20 @@ Status convention used across all tables:
 | Diagram Tooling  | draw.io, PlantUML, Excalidraw   |
 | Testing          | JUnit 5 (Java), pytest (Python) |
 | Documentation    | Markdown                        |
+
+---
+
+## Resources
+
+**Books**
+
+- _Design Patterns: Elements of Reusable Object-Oriented Software_ — GoF (Gamma, Helm, Johnson, Vlissides)
+- _Head First Design Patterns_ — Freeman & Robson
+- _Clean Code_ — Robert C. Martin
+- _Refactoring: Improving the Design of Existing Code_ — Martin Fowler
+
+**Online**
+
+- [Refactoring Guru — Design Patterns](https://refactoring.guru/design-patterns)
+- [Grokking the Object-Oriented Design Interview — Educative](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
+- [Source Making — Design Patterns](https://sourcemaking.com/design_patterns)
