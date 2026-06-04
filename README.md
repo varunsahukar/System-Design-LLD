@@ -205,3 +205,22 @@ Status convention used across all tables:
 - [Refactoring Guru — Design Patterns](https://refactoring.guru/design-patterns)
 - [Grokking the Object-Oriented Design Interview — Educative](https://www.educative.io/courses/grokking-the-object-oriented-design-interview)
 - [Source Making — Design Patterns](https://sourcemaking.com/design_patterns)
+
+---
+
+## Contributing
+
+Contributions are welcome. If you want to add a new problem, improve an existing solution, or fix a diagram, please follow this workflow:
+
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature/add-snake-game-lld`
+3. Commit your changes with a clear message.
+4. Open a pull request with a description of what was added or changed.
+
+Please ensure every new problem includes a `README.md`, a class diagram, and a working implementation with tests where applicable.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
