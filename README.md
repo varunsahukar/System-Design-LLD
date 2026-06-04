@@ -104,3 +104,17 @@ Each problem includes a requirements breakdown, class diagram, and full implemen
 | Task Manager (Trello-like)        | Composite, State, Command      | [ ]    |
 | Expense Splitter (Splitwise)      | Graph, SOLID                   | [ ]    |
 | Movie Ticket Booking System       | Factory, State, Observer       | [ ]    |
+
+---
+
+### Phase 4 — Advanced Concepts
+
+Topics that bridge clean design with production-grade engineering.
+
+| Topic                    | Description                                             | Status |
+| ------------------------ | ------------------------------------------------------- | ------ |
+| Concurrency in LLD       | Thread safety, locks, and concurrent design patterns    | [ ]    |
+| Clean Code Principles    | Naming conventions, function design, error handling     | [ ]    |
+| Refactoring Techniques   | Identifying code smells and applying targeted refactors | [ ]    |
+| Test-Driven Design (TDD) | Writing tests first to drive better LLD decisions       | [ ]    |
+| LLD + HLD Integration    | How component design feeds into system architecture     | [ ]    |
