@@ -39,27 +39,34 @@ This repository is a self-contained roadmap that covers foundational OOP princip
 This repository is designed as a **progressive, hands-on learning path**. Follow these principles:
 
 #### 1. **Learn in Phase Order**
+
 Complete phases sequentially. Each phase builds upon the previous one:
+
 - **Phase 1** establishes the mental models needed for design
 - **Phase 2** teaches reusable patterns built on strong foundations
 - **Phase 3** applies patterns to realistic scenarios
 - **Phase 4** bridges component design with production engineering
 
 #### 2. **Understand Before Implementing**
+
 For each topic:
+
 1. Read the concept explanation
 2. Study the provided diagrams and examples
 3. Understand the trade-offs and when to use it
 4. Then implement from scratch (without looking at reference code initially)
 
 #### 3. **Code-First Learning**
+
 - **Do not just read**. Write code for every pattern and problem
 - Implement in your chosen language (Java, Python, or C++)
 - Create unit tests to validate your implementation
 - Refactor and optimize after it works
 
 #### 4. **Real-World Context**
+
 Connect theory to practice:
+
 - For Phase 3 problems, start with requirements, not code
 - Draw a class diagram before coding
 - Identify which patterns apply and why
@@ -67,8 +74,41 @@ Connect theory to practice:
 
 ---
 
-## Roadmap
+### Prerequisites and Setup
 
+**What You Should Know Before Starting**
+
+- **Basic Programming**: Comfortable with OOP concepts (classes, inheritance, interfaces)
+- **Data Structures**: Familiarity with arrays, linked lists, trees, hash maps
+- **Git**: Basic commands for cloning, committing, and pushing
+
+**Setting Up Locally**
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/varunsahukar/System-Design-LLD-.git
+cd System-Design-LLD-
+
+# 2. Set up your language environment
+# For Java: Ensure JDK 11+ and Maven are installed
+# For Python: Ensure Python 3.8+ is installed
+# For C++: Ensure C++17 compiler and CMake are installed
+
+# 3. Navigate to a problem directory and start coding
+cd 03-problems/parking-lot/
+```
+
+**Best Practices for This Repository**
+
+- Create a **feature branch** for each problem you solve: `git checkout -b feature/solve-parking-lot`
+- Commit incrementally as you make progress
+- Push your work regularly to avoid data loss
+- Compare your implementation with reference solutions after completing your own version
+- Leave detailed comments in your code explaining design decisions
+
+---
+
+## Roadmap
 
 ### Phase 1 — Foundations
 
