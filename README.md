@@ -536,6 +536,75 @@ Your experience helps others learn better!
 
 ---
 
+## Quick Reference Guide
+
+### Design Pattern Categories at a Glance
+
+**Creational Patterns** (Object Creation)
+| Pattern | Use When | Key Benefit |
+|---------|----------|------------|
+| Singleton | Need exactly one instance | Global access, resource control |
+| Factory Method | Creating objects polymorphically | Decouple client from concrete classes |
+| Abstract Factory | Creating families of related objects | Ensure object family consistency |
+| Builder | Complex object construction | Clean API, step-by-step building |
+| Prototype | Clone objects instead of new instances | Avoid expensive initialization |
+
+**Structural Patterns** (Object Composition)
+| Pattern | Use When | Key Benefit |
+|---------|----------|------------|
+| Adapter | Bridge incompatible interfaces | Reuse incompatible classes |
+| Decorator | Add behavior dynamically | More flexible than inheritance |
+| Facade | Simplify complex subsystems | Single entry point, reduced coupling |
+| Composite | Tree-like hierarchies | Treat individual and composite uniformly |
+| Proxy | Control object access | Lazy loading, security, caching |
+
+**Behavioral Patterns** (Object Interaction)
+| Pattern | Use When | Key Benefit |
+|---------|----------|------------|
+| Observer | Notify multiple objects of state change | Loose coupling, real-time updates |
+| Strategy | Multiple interchangeable algorithms | Runtime algorithm selection |
+| Command | Encapsulate requests as objects | Queuing, undo/redo, logging |
+| State | Alter behavior based on internal state | Cleaner than large switch statements |
+| Iterator | Traverse collections uniformly | Hide internal structure |
+| Chain of Responsibility | Pass requests along handler chain | Decouple sender from receiver |
+
+### SOLID Principles Quick Check
+
+- **S** — Single Responsibility: One class, one reason to change
+- **O** — Open/Closed: Open for extension, closed for modification
+- **L** — Liskov Substitution: Derived classes can replace base classes
+- **I** — Interface Segregation: Many specific interfaces, not one general
+- **D** — Dependency Inversion: Depend on abstractions, not concretions
+
+### Common Problem Patterns
+
+| Problem Type               | Likely Patterns                  | Phase |
+| -------------------------- | -------------------------------- | ----- |
+| System state management    | State, Command, Memento          | 3     |
+| Multiple similar behaviors | Strategy, Decorator, Composite   | 3     |
+| Object creation            | Singleton, Factory, Builder      | 3     |
+| Complex workflows          | Chain of Responsibility, Command | 3     |
+| Real-time updates          | Observer, Publisher-Subscriber   | 3     |
+| Resource pooling           | Singleton, Object Pool           | 3     |
+| Transparent caching        | Proxy, Decorator                 | 3     |
+
+### Implementation Checklist
+
+Before submitting your Phase 3 solution:
+
+- [ ] All classes follow SOLID principles
+- [ ] At least 2–3 design patterns applied appropriately
+- [ ] Unit tests cover normal and edge cases (80%+ coverage)
+- [ ] UML class diagram included
+- [ ] No hardcoded values (use constants or configuration)
+- [ ] Error handling for invalid inputs
+- [ ] Code is readable with meaningful names
+- [ ] Comments explain "why", not "what"
+- [ ] No circular dependencies between classes
+- [ ] Extensible for future requirements
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
