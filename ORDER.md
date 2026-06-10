@@ -12,3 +12,10 @@ Start with foundational principles and gradually move into patterns and real-wor
 2. Design Patterns: Learn common reusable solutions.
 3. Real-World Problems: Apply patterns to system design cases.
 4. Advanced Concepts: Refine, optimize, and integrate with production design.
+
+## Phase Detail
+
+- **Foundations**: Understand classes, objects, encapsulation, abstraction, inheritance, and polymorphism.
+- **Design Patterns**: Study creational, structural, and behavioral patterns in depth.
+- **Real-World Problems**: Solve concrete systems like Parking Lot, ATM, and Library Management.
+- **Advanced Concepts**: Learn concurrency, clean code, refactoring, and TDD in design.
