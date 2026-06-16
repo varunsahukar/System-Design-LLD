@@ -169,6 +169,15 @@ cd 03-problems/parking-lot/
 4. **Interview Simulation**: Time yourself solving Phase 3 problems (1–1.5 hours)
 5. **Diagram First**: Always sketch class and sequence diagrams before coding
 
+**Design Review Checklist**
+
+- Every class has one clear responsibility
+- Public methods expose behavior, not internal data structure details
+- Object relationships match the requirements and diagram
+- Extension points are intentional and not speculative
+- Error cases are modeled explicitly
+- Tests cover the main flow, boundary cases, and invalid inputs
+
 **Common Pitfalls to Avoid**
 
 - ❌ Reading without coding → Passive learning leads to retention loss
