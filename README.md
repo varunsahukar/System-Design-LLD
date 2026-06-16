@@ -7,6 +7,7 @@ A structured, progressive learning path to master Low-Level Design concepts, obj
 ## Table of Contents
 
 - [Overview](#overview)
+- [Quick Start Checklist](#quick-start-checklist)
 - [Learning Process](#learning-process)
 - [Roadmap](#roadmap)
   - [Phase 1 â€” Foundations](#phase-1--foundations)
@@ -29,6 +30,19 @@ Low-Level Design (LLD) is the practice of **component-level software design** â€
 Where High-Level Design answers _"What are we building?"_, LLD answers _"How exactly do we build it?"_
 
 This repository is a self-contained roadmap that covers foundational OOP principles, all major Gang of Four design patterns, and a curated set of real-world system design problems commonly asked in engineering interviews at product-based companies.
+
+---
+
+## Quick Start Checklist
+
+Use this checklist when you open the repository for a new study session:
+
+- Pick the next unchecked topic from the roadmap.
+- Read the concept and write a short summary in your own words.
+- Sketch the expected classes, interfaces, and relationships.
+- Implement the smallest working version before adding extra features.
+- Add tests for core behavior and one edge case.
+- Update the status table before moving to the next topic.
 
 ---
 
