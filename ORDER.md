@@ -13,6 +13,17 @@ Start with foundational principles and gradually move into patterns and real-wor
 3. Real-World Problems: Apply patterns to system design cases.
 4. Advanced Concepts: Refine, optimize, and integrate with production design.
 
+## Topic Workflow
+
+Use the same loop for every concept, pattern, or LLD problem:
+
+1. Read the intent and note the core responsibility.
+2. Sketch the classes, interfaces, and relationships.
+3. Implement the smallest working version.
+4. Add tests for the happy path and edge cases.
+5. Refactor names, boundaries, and responsibilities.
+6. Write down the trade-offs before moving on.
+
 ## Phase Detail
 
 - **Foundations**: Understand classes, objects, encapsulation, abstraction, inheritance, and polymorphism.
