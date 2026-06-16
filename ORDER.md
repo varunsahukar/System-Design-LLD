@@ -47,6 +47,16 @@ Use the same loop for every concept, pattern, or LLD problem:
 - Plan the next week's focus based on weak areas.
 - Revisit earlier problems periodically for reinforcement.
 
+## Definition of Done
+
+Mark a topic or problem as complete only when:
+
+- The concept or requirement is summarized clearly.
+- The design diagram reflects the implemented classes.
+- The core implementation runs without known issues.
+- Tests cover success, failure, and edge-case flows.
+- Trade-offs and follow-up improvements are documented.
+
 ## Assessment Milestones
 
 - **Milestone 1**: Complete Phase 1 with diagrams and practice problems.
