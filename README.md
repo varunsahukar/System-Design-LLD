@@ -361,6 +361,8 @@ problem-name/
 | Phase 4 — Advanced Concepts   | 5            | 0         | 0%       |
 | **Total**                     | **40**       | **0**     | **0%**   |
 
+
+> Tip: Update your progress tracker after each study session so you can measure momentum and identify where to focus next.
 Status convention used across all tables:
 
 | Symbol | Meaning     |
