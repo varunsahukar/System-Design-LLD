@@ -68,6 +68,7 @@ Mark a topic or problem as complete only when:
 ## Notes
 
 - Use this file to track the order in which you work through the repository.
+- Update the order file when priorities or learning goals shift so the roadmap reflects your current focus.
 - Update this file with any custom changes to your learning order.
 - Commit early and often to build a strong GitHub streak.
 - Push each step separately so every change is recorded clearly.
