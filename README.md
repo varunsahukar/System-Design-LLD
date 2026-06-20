@@ -363,6 +363,9 @@ problem-name/
 
 
 > Tip: Update your progress tracker after each study session so you can measure momentum and identify where to focus next.
+
+Update the completed counts and progress percentages every time you finish a topic, so the roadmap stays accurate and actionable.
+
 Status convention used across all tables:
 
 | Symbol | Meaning     |
