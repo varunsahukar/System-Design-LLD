@@ -69,6 +69,7 @@ For each topic:
 2. Study the provided diagrams and examples
 3. Understand the trade-offs and when to use it
 4. Then implement from scratch (without looking at reference code initially)
+- Document design trade-offs and assumptions in comments or README notes so you can review decisions later.
 
 #### 3. **Code-First Learning**
 
