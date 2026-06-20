@@ -412,6 +412,7 @@ Contributions are welcome. If you want to add a new problem, improve an existing
 2. Create a feature branch: `git checkout -b feature/add-snake-game-lld`
 3. Commit your changes with a clear message.
 - Use a descriptive feature branch name, e.g. `feature/solve-parking-lot` or `improvement/refactor-user-service`.
+- Push each focused change as its own commit and keep pull requests small.
 4. Open a pull request with a description of what was added or changed.
 
 Please ensure every new problem includes a `README.md`, a class diagram, and a working implementation with tests where applicable.
