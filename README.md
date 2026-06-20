@@ -643,3 +643,5 @@ This project is licensed under the [MIT License](./LICENSE).
 ---
 
 _Maintained as an open learning resource for software engineers preparing for system design interviews or deepening their understanding of object-oriented design._
+
+- Review and summarize your progress after each topic to fix gaps quickly.
