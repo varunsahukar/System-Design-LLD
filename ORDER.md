@@ -8,16 +8,18 @@ Start with foundational principles and gradually move into patterns and real-wor
 
 ## Recommended Order
 
-1. Foundations: Solidify OOP and design thinking.
+1. Foundations: Solidify OOP, SOLID, UML, and object modeling.
 2. Design Patterns: Learn common reusable solutions.
 3. Real-World Problems: Apply patterns to system design cases.
 4. Advanced Concepts: Refine, optimize, and integrate with production design.
 
 ## Current Focus
 
-- **Next topic**: OOP Principles
-- **Location**: `01-foundations/oop-principles/README.md`
-- **After this**: SOLID Principles
+- **Completed topic**: OOP Principles
+- **Next topic**: SOLID Principles
+- **Foundation progress**: 1 of 4 topics complete
+- **Reference**: `01-foundations/README.md`
+- **After this**: UML Diagrams
 
 ## Topic Workflow
 
@@ -32,7 +34,7 @@ Use the same loop for every concept, pattern, or LLD problem:
 
 ## Phase Detail
 
-- **Foundations**: Understand classes, objects, encapsulation, abstraction, inheritance, and polymorphism.
+- **Foundations**: OOP Principles complete; continue with SOLID, UML, and object modeling.
 - **Design Patterns**: Study creational, structural, and behavioral patterns in depth.
 - **Real-World Problems**: Solve concrete systems like Parking Lot, ATM, and Library Management.
 - **Advanced Concepts**: Learn concurrency, clean code, refactoring, and TDD in design.

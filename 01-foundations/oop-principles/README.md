@@ -28,7 +28,28 @@ LLD turns requirements into concrete software units. OOP helps you answer:
 Good OOP design makes code easier to test, extend, debug, and explain in an
 interview.
 
+## Core Mental Model
+
+An object should combine three things:
+
+| Part | Meaning | Design Question |
+| ---- | ------- | --------------- |
+| State | The data the object owns | What information must this object protect? |
+| Behavior | The actions the object can perform | What can this object do without asking others? |
+| Invariant | The rule that must always remain true | What invalid state must be impossible? |
+
+If a class only exposes data through getters and setters, it is usually not
+doing enough design work. Move rules closer to the state they protect and expose
+domain actions such as `withdraw`, `reserveSeat`, `markPaid`, or `cancelBooking`.
+
 ## The Four Pillars
+
+| Pillar | Main Idea | LLD Use |
+| ------ | --------- | ------- |
+| Encapsulation | Hide state and protect rules | Prevent invalid object states |
+| Abstraction | Expose what matters and hide details | Swap implementations behind stable contracts |
+| Inheritance | Reuse or specialize behavior through an is-a relationship | Model stable domain hierarchies |
+| Polymorphism | Let one interface trigger different behavior | Replace conditional logic with extensible behavior |
 
 ### 1. Encapsulation
 
@@ -198,6 +219,40 @@ class SmsNotification extends Notification {
 Prefer composition for flexible designs. Use inheritance carefully when the
 domain relationship is strong and stable.
 
+### Composition Alternative
+
+Composition models a "has-a" relationship. Instead of forcing every variation
+into a parent-child hierarchy, one object can delegate changing behavior to
+another object.
+
+```java
+interface NotificationChannel {
+    void send(String recipient, String message);
+}
+
+class EmailChannel implements NotificationChannel {
+    @Override
+    public void send(String recipient, String message) {
+        System.out.println("Email to " + recipient + ": " + message);
+    }
+}
+
+class NotificationService {
+    private final NotificationChannel channel;
+
+    public NotificationService(NotificationChannel channel) {
+        this.channel = channel;
+    }
+
+    public void notify(String recipient, String message) {
+        channel.send(recipient, message);
+    }
+}
+```
+
+This design keeps `NotificationService` stable while the delivery channel can
+change. That is usually easier to extend than a deep inheritance tree.
+
 ### 4. Polymorphism
 
 Polymorphism means the same interface can trigger different behavior depending
@@ -221,6 +276,15 @@ banking, or a future payment method that does not exist yet.
 
 Polymorphism removes large conditional blocks and makes new behavior easier to
 add.
+
+### Polymorphism vs Conditionals
+
+| Conditional Design | Polymorphic Design |
+| ------------------ | ------------------ |
+| `if type == "CARD"` inside one large method | `CardPayment` implements `PaymentMethod` |
+| Adding a type means editing existing code | Adding a type means adding a new class |
+| Logic is centralized but grows quickly | Logic is distributed by responsibility |
+| Harder to unit test each variation | Each implementation can be tested directly |
 
 ## Mini LLD Example: Payment Checkout
 
@@ -365,6 +429,32 @@ Candidate classes:
 | `BorrowingRecord` | Yes | Tracks borrow history |
 | `Available` | No | Better as book state or field |
 
+## Relationship Types in OOP Design
+
+| Relationship | Meaning | Example |
+| ------------ | ------- | ------- |
+| Association | One object knows or uses another | `CheckoutService` uses `PaymentMethod` |
+| Aggregation | One object groups others, but children can live independently | `Library` has many `Book` objects |
+| Composition | One object strongly owns another object's lifecycle | `Order` owns `OrderItem` objects |
+| Inheritance | One type is a specialized version of another | `EmailNotification` is a `Notification` |
+| Dependency | One object temporarily needs another to complete work | `ReportExporter` depends on `Formatter` |
+
+Use the weakest relationship that still models the requirement. Strong
+ownership and inheritance are harder to change later.
+
+## Interview Design Flow
+
+When an interviewer gives an OOP/LLD prompt, move in this order:
+
+1. Clarify the core use cases and constraints.
+2. List the domain nouns as candidate classes.
+3. Assign one primary responsibility to each class.
+4. Decide which state each class owns.
+5. Add behavior methods that protect that state.
+6. Identify relationships and collaboration flow.
+7. Introduce interfaces only where behavior genuinely varies.
+8. Check the design against the four pillars and obvious edge cases.
+
 ## OOP Design Checklist
 
 Before finalizing a class design, ask:
@@ -396,6 +486,7 @@ Complete these before moving to SOLID principles:
 3. Create `PaymentMethod` implementations for card, UPI, and wallet payments.
 4. Write a short class diagram for the payment flow.
 5. Explain where each OOP pillar appears in your design.
+6. Refactor one inheritance-based design into composition and note the trade-off.
 
 ## Completion Criteria
 
@@ -413,5 +504,3 @@ Mark this topic complete only when:
 After OOP Principles, continue with:
 
 - SOLID Principles
-- UML Diagrams
-- Object Modeling

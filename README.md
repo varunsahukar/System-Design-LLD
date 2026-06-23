@@ -43,6 +43,7 @@ Use this checklist when you open the repository for a new study session:
 - Implement the smallest working version before adding extra features.
 - Add tests for core behavior and one edge case.
 - Update the status table before moving to the next topic.
+- Record the session in `DAILY_PROGRESS.md`.
 
 ---
 
@@ -69,7 +70,7 @@ For each topic:
 2. Study the provided diagrams and examples
 3. Understand the trade-offs and when to use it
 4. Then implement from scratch (without looking at reference code initially)
-- Document design trade-offs and assumptions in comments or README notes so you can review decisions later.
+5. Document design trade-offs and assumptions in comments or README notes so you can review decisions later.
 
 #### 3. **Code-First Learning**
 
@@ -101,8 +102,8 @@ Connect theory to practice:
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/varunsahukar/System-Design-LLD-.git
-cd System-Design-LLD-
+git clone https://github.com/varunsahukar/System-Design-LLD.git
+cd System-Design-LLD
 
 # 2. Set up your language environment
 # For Java: Ensure JDK 11+ and Maven are installed
@@ -229,9 +230,11 @@ cd 03-problems/parking-lot/
 
 Build a solid base in object-oriented thinking and modeling before moving to patterns or problems.
 
+Phase overview: [01-foundations/README.md](01-foundations/README.md)
+
 | Topic            | Description                                                          | Status |
 | ---------------- | -------------------------------------------------------------------- | ------ |
-| [OOP Principles](01-foundations/oop-principles/README.md) | Encapsulation, Abstraction, Inheritance, Polymorphism                | [~]    |
+| [OOP Principles](01-foundations/oop-principles/README.md) | Encapsulation, Abstraction, Inheritance, Polymorphism                | [x]    |
 | SOLID Principles | SRP, OCP, LSP, ISP, DIP with examples                                | [ ]    |
 | UML Diagrams     | Class, Sequence, Activity, and Use-case diagrams                     | [ ]    |
 | Object Modeling  | Identifying classes, attributes, and relationships from requirements | [ ]    |
@@ -319,6 +322,7 @@ Topics that bridge clean design with production-grade engineering.
 lld-system-design/
 |
 |-- 01-foundations/
+|   |-- README.md
 |   |-- oop-principles/
 |   |   `-- README.md
 |   |-- solid-principles/
@@ -357,11 +361,11 @@ problem-name/
 
 | Phase                         | Total Topics | Completed | Progress |
 | ----------------------------- | ------------ | --------- | -------- |
-| Phase 1 — Foundations         | 4            | 0         | 0%       |
+| Phase 1 — Foundations         | 4            | 1         | 25%      |
 | Phase 2 — Design Patterns     | 16           | 0         | 0%       |
 | Phase 3 — Real-World Problems | 15           | 0         | 0%       |
 | Phase 4 — Advanced Concepts   | 5            | 0         | 0%       |
-| **Total**                     | **40**       | **0**     | **0%**   |
+| **Total**                     | **40**       | **1**     | **3%**   |
 
 
 > Tip: Update your progress tracker after each study session so you can measure momentum and identify where to focus next.
