@@ -231,7 +231,7 @@ Build a solid base in object-oriented thinking and modeling before moving to pat
 
 | Topic            | Description                                                          | Status |
 | ---------------- | -------------------------------------------------------------------- | ------ |
-| OOP Principles   | Encapsulation, Abstraction, Inheritance, Polymorphism                | [ ]    |
+| [OOP Principles](01-foundations/oop-principles/README.md) | Encapsulation, Abstraction, Inheritance, Polymorphism                | [~]    |
 | SOLID Principles | SRP, OCP, LSP, ISP, DIP with examples                                | [ ]    |
 | UML Diagrams     | Class, Sequence, Activity, and Use-case diagrams                     | [ ]    |
 | Object Modeling  | Identifying classes, attributes, and relationships from requirements | [ ]    |
@@ -320,6 +320,7 @@ lld-system-design/
 |
 |-- 01-foundations/
 |   |-- oop-principles/
+|   |   `-- README.md
 |   |-- solid-principles/
 |   `-- uml-diagrams/
 |

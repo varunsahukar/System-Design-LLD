@@ -13,6 +13,12 @@ Start with foundational principles and gradually move into patterns and real-wor
 3. Real-World Problems: Apply patterns to system design cases.
 4. Advanced Concepts: Refine, optimize, and integrate with production design.
 
+## Current Focus
+
+- **Next topic**: OOP Principles
+- **Location**: `01-foundations/oop-principles/README.md`
+- **After this**: SOLID Principles
+
 ## Topic Workflow
 
 Use the same loop for every concept, pattern, or LLD problem:
